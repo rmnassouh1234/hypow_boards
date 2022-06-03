@@ -13,6 +13,13 @@ Hypow custom boards for Arduino IDE
 
 The Hypow boards list will now be available to select from under *Tools->Board* list.
 
+# Bootloader Upload
+1. Connect the board's *SWDIO* and *SWCLK* to a programmer and power it.
+2. Open Arduino IDE
+3. Go to *Tools->Programmer*
+4. Select your programmer fromt he list
+5. Select *Tools->Burn Bootloader*
+
 # Usage
 
 ## Hypow Dev Board Pinout
