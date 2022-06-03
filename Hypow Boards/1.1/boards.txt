@@ -1,0 +1,48 @@
+# Hypow Boards
+
+# Hypow Dev
+# --------------------------------------
+hypow_dev.name=Hypow Dev
+hypow_dev.vid.0=0x2341
+hypow_dev.pid.0=0x804d
+hypow_dev.vid.1=0x2341
+hypow_dev.pid.1=0x004d
+hypow_dev.vid.2=0x2341
+hypow_dev.pid.2=0x824d
+hypow_dev.vid.3=0x2341
+hypow_dev.pid.3=0x024d
+hypow_dev.upload_port.0.vid=0x2341
+hypow_dev.upload_port.0.pid=0x804d
+hypow_dev.upload_port.1.vid=0x2341
+hypow_dev.upload_port.1.pid=0x004d
+hypow_dev.upload_port.2.vid=0x2341
+hypow_dev.upload_port.2.pid=0x824d
+hypow_dev.upload_port.3.vid=0x2341
+hypow_dev.upload_port.3.pid=0x024d
+hypow_dev.upload_port.4.board=hypow_dev
+
+hypow_dev.upload.tool=bossac
+hypow_dev.upload.tool.default=bossac
+hypow_dev.upload.tool.network=arduino_ota
+hypow_dev.upload.protocol=sam-ba
+hypow_dev.upload.maximum_size=262144
+hypow_dev.upload.maximum_data_size=32768
+hypow_dev.upload.use_1200bps_touch=true
+hypow_dev.upload.wait_for_upload_port=true
+hypow_dev.upload.native_usb=true
+hypow_dev.build.mcu=cortex-m0plus
+hypow_dev.build.f_cpu=48000000L
+hypow_dev.build.usb_product="Hypow Dev"
+hypow_dev.build.usb_manufacturer="HYTAKA"
+hypow_dev.build.board=HYPOW_DEV
+hypow_dev.build.core=arduino
+hypow_dev.build.extra_flags=-D__SAMD21G17A__ {build.usb_flags}
+hypow_dev.build.ldscript=linker_scripts/gcc/flash_with_bootloader.ld
+hypow_dev.build.openocdscript=openocd_scripts/arduino_zero.cfg
+hypow_dev.build.variant=hypow_dev
+hypow_dev.build.variant_system_lib=
+hypow_dev.build.vid=0x2341
+hypow_dev.build.pid=0x804d
+hypow_dev.bootloader.tool=openocd
+hypow_dev.bootloader.tool.default=openocd
+hypow_dev.bootloader.file=zero/samd21_sam_ba.bin
