@@ -15,7 +15,7 @@ The Hypow boards list will now be available to select from under *Tools->Board* 
 
 # Usage
 
-## Hypow Dev Board
+## Hypow Dev Board Pinout
 
  | **Pin number**  | **PIN**   | **Label/Name**      | **Peripheral in use** / **Comments**               |
  | ----------- | ----- | --------------- | ------------------------------------------ |
